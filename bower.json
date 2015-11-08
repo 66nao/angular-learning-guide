@@ -1,0 +1,28 @@
+{
+  "name": "angular-learning-guide",
+  "version": "0.0.1",
+  "homepage": "https://github.com/66nao/angular-learning-guide",
+  "authors": [
+    "erguotou <erguotou525@gmail.com>"
+  ],
+  "description": "angular learning guide",
+  "main": "index.html",
+  "keywords": [
+    "angular",
+    "learning",
+    "guide"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "js/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "~1.4.7",
+    "angular": "~1.4.7"
+  }
+}
