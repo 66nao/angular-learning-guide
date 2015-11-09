@@ -8,7 +8,9 @@
     <base href="/">
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
     <link href="//cdn.bootcss.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/side-menu.css">
+    <link rel="stylesheet" href="./css/side-menu.css">
+    <link rel="stylesheet" href="./js/vendor/highlightjs/styles/github-gist.css">
+    <link rel="stylesheet" href="./css/markdown.css">
 </head>
 <body ng-app="learningApp">
   <div id="layout">
@@ -23,30 +25,32 @@
               <a class="pure-menu-heading" href>AngularJs</a>
 
               <ul>
-                  <li ng-class="{'pure-menu-selected': isMenuitemSelected('/introduction')}"><a href="#/introduction">介绍</a></li>
-                  <li ng-class="{'pure-menu-selected': isMenuitemSelected('/getting-started')}"><a href="#/getting-started">开始使用</a></li>
+                  <li ng-class="{'pure-menu-selected': isMenuitemSelected('/introduction')}"><a href="#/introduction"><span class="fa fa-home"></span>介绍</a></li>
+                  <li ng-class="{'pure-menu-selected': isMenuitemSelected('/getting-started')}"><a href="#/getting-started"><span class="fa fa-send"></span>开始使用</a></li>
 
-                  <li class="menu-item-divided" ng-class="{'pure-menu-selected': isMenuitemSelected('/lesson/1')}"><a href="#/lesson/1">例一</a></li>
-                  <li ng-class="{'pure-menu-selected': isMenuitemSelected('/lesson/2')}"><a href="#/lesson/2">例二</a></li>
-                  <li ng-class="{'pure-menu-selected': isMenuitemSelected('/lesson/3')}"><a href="#/lesson/3">例三</a></li>
-                  <li ng-class="{'pure-menu-selected': isMenuitemSelected('/lesson/4')}"><a href="#/lesson/4">例四</a></li>
-                  <li ng-class="{'pure-menu-selected': isMenuitemSelected('/lesson/5')}"><a href="#/lesson/5">例五</a></li>
-                  <li ng-class="{'pure-menu-selected': isMenuitemSelected('/lesson/6')}"><a href="#/lesson/6">例六</a></li>
-                  <li ng-class="{'pure-menu-selected': isMenuitemSelected('/lesson/7')}"><a href="#/lesson/7">例七</a></li>
-                  <li ng-class="{'pure-menu-selected': isMenuitemSelected('/lesson/8')}"><a href="#/lesson/8">例八</a></li>
-                  <li ng-class="{'pure-menu-selected': isMenuitemSelected('/lesson/9')}"><a href="#/lesson/9">例九</a></li>
+                  <li class="menu-item-divided" ng-class="{'pure-menu-selected': isMenuitemSelected('/lesson/1')}"><a href="#/lesson/1"><span class="fa fa-graduation-cap"></span>例一</a></li>
+                  <li ng-class="{'pure-menu-selected': isMenuitemSelected('/lesson/2')}"><a href="#/lesson/2"><span class="fa fa-graduation-cap"></span>例二</a></li>
+                  <li ng-class="{'pure-menu-selected': isMenuitemSelected('/lesson/3')}"><a href="#/lesson/3"><span class="fa fa-graduation-cap"></span>例三</a></li>
+                  <li ng-class="{'pure-menu-selected': isMenuitemSelected('/lesson/4')}"><a href="#/lesson/4"><span class="fa fa-graduation-cap"></span>例四</a></li>
+                  <li ng-class="{'pure-menu-selected': isMenuitemSelected('/lesson/5')}"><a href="#/lesson/5"><span class="fa fa-graduation-cap"></span>例五</a></li>
+                  <li ng-class="{'pure-menu-selected': isMenuitemSelected('/lesson/6')}"><a href="#/lesson/6"><span class="fa fa-graduation-cap"></span>例六</a></li>
+                  <li ng-class="{'pure-menu-selected': isMenuitemSelected('/lesson/7')}"><a href="#/lesson/7"><span class="fa fa-graduation-cap"></span>例七</a></li>
+                  <li ng-class="{'pure-menu-selected': isMenuitemSelected('/lesson/8')}"><a href="#/lesson/8"><span class="fa fa-graduation-cap"></span>例八</a></li>
+                  <li ng-class="{'pure-menu-selected': isMenuitemSelected('/lesson/9')}"><a href="#/lesson/9"><span class="fa fa-graduation-cap"></span>例九</a></li>
 
-                  <li class="menu-item-divided" ng-class="{'pure-menu-selected': isMenuitemSelected('/the-end')}"><a href="#/the-end">结束语</a></li>
+                  <li class="menu-item-divided" ng-class="{'pure-menu-selected': isMenuitemSelected('/the-end')}"><a href="#/the-end"><span class="fa fa-book"></span>结束语</a></li>
               </ul>
           </div>
       </div>
 
-      <div id="main" ng-view>
-
-      </div>
+      <div id="main" ng-view></div>
   </div>
   <script src="./js/vendor/angular/angular.min.js"></script>
   <script src="./js/vendor/angular-route/angular-route.min.js"></script>
+  <script src="./js/vendor/highlightjs/highlight.pack.min.js" charset="utf-8"></script>
+  <script src="./js/vendor/marked/marked.min.js"></script>
+  <script src="./js/vendor/angular-marked/angular-marked.min.js"></script>
+
   <script src="./js/app.js"></script>
   <script src="./js/menu.controller.js"></script>
   <script src="./js/lesson.controller.js"></script>

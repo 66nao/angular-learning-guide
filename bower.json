@@ -25,6 +25,7 @@
     "angular-route": "~1.4.7",
     "angular": "~1.4.7",
     "angular-marked": "~0.0.21",
-    "marked": "~0.3.5"
+    "marked": "~0.3.5",
+    "highlightjs": "~8.9.1"
   }
 }
