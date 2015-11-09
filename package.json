@@ -1,0 +1,27 @@
+{
+  "name": "angular-learning-guide",
+  "version": "0.0.1",
+  "description": "angular learning guide",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/66nao/angular-learning-guide.git"
+  },
+  "keywords": [
+    "angular",
+    "learning",
+    "guide"
+  ],
+  "author": "erguotou <erguotou525@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/66nao/angular-learning-guide/issues"
+  },
+  "homepage": "https://github.com/66nao/angular-learning-guide#readme",
+  "dependencies": {
+    "marked": "^0.3.5"
+  }
+}

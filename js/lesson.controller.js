@@ -1,6 +1,6 @@
 'use strict'
 
 angular.module('learningApp')
-.controller('LessonCtrl', ['$scope', function ($scope) {
-  // body...
+.controller('LessonCtrl', ['$scope', '$routeParams', function ($scope, $routeParams) {
+  $scope.lessonHtml = '/html/lesson/' + $routeParams.index + '.html';
 }]);
