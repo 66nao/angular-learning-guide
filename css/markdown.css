@@ -25,13 +25,31 @@
   font-weight: 300;
   color: #888;
 }
+.content a,
+.content a:focus,
+.content a:active {
+  color: #42b983;
+}
+.content a:hover {
+  color: #319065;
+}
 .content blockquote {
   margin: 1rem 0;
   padding: .5rem 2em;
   background: #f1f1f1;
   border-left: 6px solid #f75304;
 }
+.content code {
+  padding: 3px 5px;
+  margin: 0 2px;
+  color: #e96900;
+  background-color: #f1f1f1;
+  border-radius: 2px;
+}
 .content pre code {
+  padding: 0.5em;
+  margin: 0;
+  color: #333;
   border: 1px solid #ccc;
   background: #f1f1f1;
   border-radius: 3px;
