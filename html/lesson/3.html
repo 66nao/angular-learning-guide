@@ -4,10 +4,11 @@
   <p>一个简单的过滤器例子</p>
   <iframe height='268' scrolling='no' src='//codepen.io/erguotou520/embed/zvMmLO/?height=268&theme-id=0&default-tab=result' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/erguotou520/pen/zvMmLO/'>zvMmLO</a> by erguotou (<a href='http://codepen.io/erguotou520'>@erguotou520</a>) on <a href='http://codepen.io'>CodePen</a>.
   </iframe>
-  <marked>
-    `Angularjs`有许多内置的过滤器：`filter`,`orderBy`,'number','date'等等，你也可以自己定义过滤器。
-    过滤器也可以传入参数`{{exception | filter:arg[:arg1:arg2...:argN]}}`，过滤器支持类似于Linux中的管道技术，可以加入多个过滤器`{{exception | filter1 | filter2 | ... | filterN}}`
-    综合这些filter可以实现更多更复杂的功能，我们利用上一节的数据做一些更高级的应用。
-  </marked>
+  <div marked src="'tpl.md'"></div>
   <a href="#/lesson/2">返回例二</a>
 </section>
+<script type="text/ng-template" id="tpl.md">
+- `Angularjs`有许多内置的过滤器：`filter`,`orderBy`,`number`,`date`等等，你也可以自己定义过滤器。
+- 过滤器也可以传入参数`{{exception | filter:arg[:arg1:arg2...:argN]}}`，过滤器支持类似于Linux中的管道技术，可以加入多个过滤器`{{exception | filter1 | filter2 | ... | filterN}}`
+- 综合这些filter可以实现更多更复杂的功能，我们利用上一节的数据做一些更高级的应用。
+</script>
