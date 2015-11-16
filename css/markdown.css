@@ -49,10 +49,16 @@
 .content pre code {
   padding: 0.5em;
   margin: 0;
+  max-height: 12em;
   color: #333;
   border: 1px solid #ccc;
   background: #f1f1f1;
   border-radius: 3px;
+}
+.content img {
+  max-width: 100%;
+  height: auto;
+  text-align: center;
 }
 .content iframe.codepen {
   border: 1px solid #222;

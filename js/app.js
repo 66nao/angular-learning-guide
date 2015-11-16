@@ -10,13 +10,13 @@ angular.module('learningApp', ['ngRoute', 'hc.marked']).
       markedProvider.setRenderer({
         code: function (code, lang) {
           return "<pre><code class='hljs"
-            + (lang?(" lang-" + lang):"") + "'>"
+            + (lang?(" lang-" + lang):"") + "' ng-non-bindable>"
             + hljs.highlightAuto(code).value + "</code></pre>";
         }
       });
       markedProvider.setOptions({
         gfm: true,
         tables: true,
-        breaks: true
+        breaks: false
       });
   }]);
