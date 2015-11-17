@@ -29,3 +29,8 @@ AngularJS 不仅仅是一个类库，而是提供了一个完整的框架。它�
 它由Google Chrome的开发人员设计，引领着下一代Web应用开发。引用官网的一段话来说明Angularjs：
 
 > HTML enhanced for web apps!
+
+### 学习资源
+- [AngularJS入门教程](http://www.ituring.com.cn/article/13471)
+- [Angularjs中文社区](http://www.angularjs.cn/)
+- [幕客网相关视频资料](http://www.imooc.com/index/search?words=angular)
