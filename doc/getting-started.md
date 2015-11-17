@@ -127,7 +127,7 @@ angular.module('myApp').filter('evaluation', function() {
 ### 虐心的填坑之旅
 - Angularjs的学习曲线非常陡峭
 
-![学习曲线](/image/learning-curve.png)
+![学习曲线](./image/learning-curve.png)
 
 - Angularjs的调试比较痛苦，经常会出现一些你看不懂的错误。而且错误信息的查看需要翻墙！
 不过好在现在学习资源多，多使用搜索一般是可以解决问题的。
